@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: Spadebook_production
-  username: Spadebook
-  password: <%= ENV['SPADEBOOK_DATABASE_PASSWORD'] %>
+  database: d5silo490msfo3
+  username: purtdtttrypmkz
+  password: 258c4902ee0f6f9cca21508a51732e3a817b0440e26cfa544014284ae6c502d1
