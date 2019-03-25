@@ -1,0 +1,139 @@
+
+.main-body {
+  width: 1012px;
+  margin: 0 auto;
+  margin-top: 60px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif ;
+  position: relative;
+}
+
+.main-body-left {
+  width: 170px;
+  float: left;
+  font-size: 12px;
+  position: fixed;
+  margin-right: 10px;
+}
+
+.main-body-left ul {
+  margin-bottom: 20px;
+}
+
+.main-body-left li {
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.main-body-left li:hover {
+  padding: 5px;
+  background:#F6F7F9;
+  border: 1px solid #DDDFE2;
+  box-sizing: border-box;
+}
+
+.main-left-title {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-left: 5px;
+  color: #4B4F56;
+}
+
+.main-body-left .material-icons {
+  transform: translateY(15%);
+  font-size: 14px;
+}
+
+.main-left-p {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.main-right-title {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: #36589F;
+}
+
+.body-right-col img {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.body-right-col img:hover {
+  filter: grayscale(1);
+  transition-duration: 0.2s;
+}
+
+.main-body-content {
+  width: 500px;
+  margin-left: 180px;
+  float: left;
+  height: 100%;
+}
+
+.body-content-col {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 500px;
+  background: white;
+  box-shadow: 1px 1px #DFE0E4;
+}
+
+
+.main-body-right-positioner {
+  position: absolute;
+  right: 340px;
+}
+
+.main-body-right {
+  width: 300px;
+  margin-left: 20px;
+  float: left;
+  font-size: 12px;
+  position: fixed;
+}
+
+.body-right-col {
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 300px;
+  background: white;
+  box-shadow: 1px 1px #DFE0E4;
+}
+
+.body-right-footer p {
+  color: #91959D;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.post-image {
+  margin-top: 15px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1012px) {
+  .main-body-right{
+    display: none;
+  }
+
+  .main-body {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main-body-left{
+    display: none;
+  }
+
+  .main-body-content {
+    width: 100%;
+    margin-left: 0;
+  }
+  .body-content-col {
+    width: 100%;
+  }
+}

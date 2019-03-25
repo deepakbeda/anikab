@@ -1,0 +1,139 @@
+
+.post-content-post {
+  padding: 15px;
+}
+
+.post-content-topper {
+  margin-bottom: 15px;
+}
+
+.post-content-thumb {
+  float: left;
+  margin-right: 10px;
+}
+
+.post-content-thumb {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.post-content-name {
+  margin-top: 7px;
+  float: left;
+  font-weight: bold;
+  color: #36589F;
+}
+
+.author-in-post {
+  float: left;
+  text-transform: capitalize;
+}
+
+.tagged-user-in-post {
+  float: left;
+}
+
+.tagged-user-arrow {
+  margin: 0 10px;
+  font-size: 10px;
+  color: #AAAAAA;
+}
+
+.post-content-timestamp {
+  color: #ADB2BB;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.post-dropdown {
+  float: right;
+  position: relative;
+}
+
+.post-dropdown:hover {
+  cursor:pointer;
+}
+
+.post-dropdown:hover .post-dropdown-options {
+  display: block;
+}
+
+.post-dropdown-options {
+  display: none;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  border: 1px solid #DDDFE2;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  background: white;
+  border-radius: 3px;
+}
+
+.post-dropdown-options li {
+  padding: 5px 7px;
+}
+
+.post-dropdown-options li:hover {
+  background: #DDDFE2;
+}
+
+.post-dropdown-options li:first-child {
+  border-bottom: 1px solid #DDDFE2;
+}
+
+.post-content-body {
+  margin-bottom: 20px;
+}
+
+.post-content-actions {
+  border-top: 1px solid #DDDFE2;
+  padding-top: 15px;
+  color: #AFB4BD;
+
+}
+
+.post-content-actions-like {
+  font-size: 14px;
+  float:left;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.post-content-actions-like:hover {
+  text-decoration: underline;
+}
+
+.post-content-actions-like .material-icons {
+  float: left;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.post-content-footer {
+  background: #F6F7F9;
+  border-top: 1px solid #DDDFE2;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.post-content-footer .material-icons {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.post-content-likes {
+  border-bottom: 1px solid #DDDFE2;
+  margin-bottom: 10px;
+  color: #5890FF;
+}
+
+.post-content-actions-like.liked {
+  color: #5890FF;
+}
+
+.post-content-comments {
+}
